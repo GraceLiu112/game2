@@ -16,17 +16,19 @@ void setup(){
 
 void draw(){
   if(mode == INTRO){
-    
+    intro();
   }
   else if(mode == GAME){
+    game();
   }
   else if(mode == PAUSE){
+    pause();
   }
   else if(mode == GAMEOVER){
+    gameover();
   }
   else{
-    println("MODE error: " + mode);
-  
+    println("MODE error: " + mode); 
   }
 
 }
