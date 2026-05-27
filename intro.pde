@@ -12,6 +12,19 @@ void intro(){
   text("2 Player", 490, 415);
   
   //tactile
+  if(mouseX > 100 && mouseX < 350 && mouseY > 350 && mouseY < 450){
+    strokeWeight(5);
+    stroke(255, 0, 0);    
+  }
+  else if(mouseX > 455 && mouseX < 705 && mouseY > 350 && mouseY < 450){
+    strokeWeight(5);
+    stroke(255, 0, 0);    
+  }
+  else{
+    strokeWeight(1);
+    stroke(0);      
+  }
+  
 
 }
 
