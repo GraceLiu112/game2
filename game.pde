@@ -26,8 +26,8 @@ void game(){
   //move paddles
   if(wkey == true) lefty = lefty - 5;
   if(skey == true) lefty = lefty + 5;
-  if(wkey == true) righty = righty - 5;
-  if(skey == true) righty = righty + 5;
+  if(upkey == true) righty = righty - 5;
+  if(downkey == true) righty = righty + 5;
   
   //move ball
   ballx = ballx + vx;

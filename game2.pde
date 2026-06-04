@@ -43,6 +43,9 @@ void setup(){
   bally = height/2;
   balld = 100;
   
+  vx = random(-5, 5);
+  vy = random(-5, 5);
+  
   wkey = skey = upkey = downkey = false;
   
 }

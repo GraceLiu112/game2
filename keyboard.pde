@@ -5,7 +5,7 @@ void keyPressed(){
   if(keyCode == DOWN) downkey = true;
 }
 
-void keyRealsed(){
+void keyReleased(){
   if(key == 'w' || key == 'W') wkey = false;
   if(key == 's' || key == 'S') skey = false;
   if(keyCode == UP) upkey = false;
