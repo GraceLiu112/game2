@@ -3,6 +3,13 @@
 //2-2
 //May, 25, 2026
 
+//Colors
+color riceColor = #C6AD9C;
+color blue = #2B50B2;
+color orange = #FF8A3B;
+color pink = #FFA7C9;
+
+//mode framework
 int mode;
 final int INTRO = 1;
 final int GAME = 2;
@@ -12,9 +19,13 @@ final int GAMEOVER = 4;
 //entity variables
 float leftx, lefty, leftd, rightx, righty, rightd;
 float ballx, bally, balld;
+float vx, vy;
+
+//scoring
+int leftscore, rightscore, timer;
 
 //keyboard
-boolean wkey, skey, upkey, downkey;
+boolean wkey, skey, upkey, downkey, leftkey, rightkey;
 
 void setup(){
   size(800, 600);
